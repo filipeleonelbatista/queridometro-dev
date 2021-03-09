@@ -1,34 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center"> 
+    <a href="https://queridometro-dev.vercel.app">
+        <img width="100" src=".github/logo.png">
+        <br />Queridômetro.dev
+    </a>
+</p>
 
-## Getting Started
+----
 
-First, run the development server:
+<img width="100%" src=".github/screens.png">
+
+# Indice
+
+- [Sobre](#-sobre)
+- [Tecnologias](#Tecnologias)
+- [Regras de negócio](#Regras-de-negocio)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
+
+## 🔖&nbsp; Sobre
+
+Projeto desenvolvido com o intuito de verificar o aspecto social de um grupo de desenvolvedores. Inspiração do projeto surgiu de duas partes. A primeira, e mais evidente, é o Big Brother Brasil 21 onde temos a temática do Queridômetro onde os participantes avaliam uns aos outros, e neste ponto, o layout se inspirou nisso. O outro aspecto foi de que existem muitas ferramentas de avaliação social de equipes e então resolvi propor esta para devs ultilizando a API do Github para fornecer dados básicos. 
+
+### Disponível em [https://queridometro-dev.vercel.app](https://queridometro-dev.vercel.app)
+
+## Objetivo
+ Ampliar meus conhecimentos em NextJS e Cookies.
+
+---
+## Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [NextJS](https://nextjs.org/)
+
+---
+
+## Regras de negócio
+
+ - Quando o usuario "Logar" com o Github, adicionar na listagem de participantes da votação.
+ - Para não criar uma pagina pra cadastrar os participantes, foi que todos os participantes da votação entram primeiramente na página sem realizar a votação e saiam para que o proximo entre.
+ - Ao iniciar a votação, deve ser seguida até o final.
+ - Os dados são salvos em Cookies.
+ - O primeiro usuario se torna o "Líder" e pode definir se a votação vai ser aberta ou fechada.
+ - Após realizarem a votação, os participantes podem ver os resultados de todos na página de resultado
+ - Caso o voto seja aberto o participante pode selecionar o card que deseja e ver quem votou nesta pessoa e o valor do seu voto.
+ - Os dados ficam salvos apenas por 1 dia, para que a dinâmica seja feita apenas uma vez por dia.
+ - Após realizarem a votação não será possivel votar novamente no mesmo dia.
+
+---
+
+## 🗂 Como baixar o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
+
+    # Clonar o repositório
+    $ git clone https://github.com/filipeleonelbatista/queridometro-dev.git
+
+    # Entrar no diretório desejado
+    $ cd queridometro-dev
+
+    # Instalar as dependências
+    $ yarn install
+
+    # Iniciar o projeto
+    $ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h3 align="center" >Vamos nos conectar 😉</h3>
+<p align="center">
+  <a href="https://www.linkedin.com/in/filipelbatista/">
+    <img alt="LinkedIn" width="22px" src="https://github.com/filipeleonelbatista/filipeleonelbatista/blob/master/assets/052-linkedin.svg" />
+  </a>&ensp;
+  <a href="mailto:filipe.x2016@gmail.com">
+    <img alt="Email" width="22px" src="https://github.com/filipeleonelbatista/filipeleonelbatista/blob/master/assets/gmail.svg" />
+  </a>&ensp;
+  <a href="https://instagram.com/filipegaucho22">
+    <img alt="Instagram" width="22px" src="https://github.com/filipeleonelbatista/filipeleonelbatista/blob/master/assets/044-instagram.svg" />
+  </a>
+</p>
+<br />
+<p align="center">
+    Desenvolvido 💜 por Filipe Batista 
+</p>
